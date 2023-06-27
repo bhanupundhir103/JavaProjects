@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T16:08:10 CDT" name="Default suite" finished-at="2023-05-19T16:09:01 CDT" duration-ms="51344">
+    <groups>
+    </groups>
+    <test started-at="2023-05-19T16:08:10 CDT" name="Default test" finished-at="2023-05-19T16:09:01 CDT" duration-ms="51344">
+      <class name="org.example.FirstTestNGTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:10 CDT" name="launchBrowser" finished-at="2023-05-19T16:08:28 CDT" duration-ms="18031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyHomepageTitle()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:28 CDT" name="verifyHomepageTitle" finished-at="2023-05-19T16:08:28 CDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:28 CDT" name="terminateBrowser" finished-at="2023-05-19T16:08:28 CDT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:28 CDT" name="launchBrowser" finished-at="2023-05-19T16:08:41 CDT" duration-ms="12425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginpage()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:41 CDT" name="verifyLoginpage" finished-at="2023-05-19T16:08:41 CDT" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:41 CDT" name="terminateBrowser" finished-at="2023-05-19T16:08:41 CDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:41 CDT" name="launchBrowser" finished-at="2023-05-19T16:08:52 CDT" duration-ms="11104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySigninpage()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:08:52 CDT" name="verifySigninpage" finished-at="2023-05-19T16:09:01 CDT" duration-ms="8813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninpage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:org.example.FirstTestNGTest@1af2d44a]" started-at="2023-05-19T16:09:01 CDT" name="terminateBrowser" finished-at="2023-05-19T16:09:01 CDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- org.example.FirstTestNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

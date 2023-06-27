@@ -1,0 +1,34 @@
+package Falkon.FalkonSystems;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	LoginPage (WebDriver driver) {
+		
+		this.driver= driver;
+	}
+	
+	By text_username = By.xpath("//input[@id='username']");
+	By text_password = By.xpath("//input[@id='password']");
+	By button_submit = By.xpath("//button[@type='submit']");
+	
+	public void username (String username) {
+		
+		driver.findElement(text_username).sendKeys(username);
+	}
+	
+	public void password (String password) {
+		
+		driver.findElement(text_password).sendKeys(password);
+	}
+	
+	public void signin () {
+		
+		driver.findElement(button_submit).click();
+	}
+
+};

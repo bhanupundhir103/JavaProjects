@@ -1,0 +1,8 @@
+mainurl = https://uat-falkonsms-fe.azurewebsites.net/sign-in
+
+adminusername = Sysadm.uat@gmail.com
+
+adminpassword = Uat@@123
+
+browser = chrome
+

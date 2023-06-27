@@ -1,0 +1,22 @@
+package Falkon.FalkonSystems;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	LoginPage (WebDriver driver) {
+		
+		this.driver= driver;
+	}
+	
+	By text_username = By.xpath("//input[@id='username']");
+	By text_password = By.xpath("//input[@id='password']");
+	By button_submit = By.xpath("//button[@type='submit']");
+	
+	
+	
+
+}
